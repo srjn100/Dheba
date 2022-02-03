@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Setting</title>
+    <link rel="stylesheet" href="../css/inner_style.css">
+    <script src="../javascript/setting_function.js"></script>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <a href="../index.html"><div id="logout">Logout</div></a>
+    </div>
+    <div id="content">
+        <div id="left">
+            <ul>
+                <li class="menu"><a href="dashboard.html">Dashboard</a></li>
+                <li class="menu"><a href="deposit.html">Deposit</a></li>
+                <li class="menu"><a href="withdraw.html">Withdraw</a></li>
+                <li class="menu"><a href="send.html">Send Money</a></li>
+                <li class="menu" id="active"><a id="at" href="#">Settings</a></li>
+                <li class="menu"><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+        <div id="right">
+            <div id="innerContent">
+                <form method="get" onsubmit="return validateSetting(this);">
+                <div id="settingTitle">Manage your account</div>
+                <div class="settingContentL">Name</div>
+                <div class="settingContentR">Raju Baral</div>
+                <div class="settingContentL">Email</div>
+                <div class="settingContentR">
+                    <input type="text" id="email" name="email" value="rb488@gmail.com"/>
+                    <div id="errorEmail" class="settingError"></div>
+                </div>
+                <div class="settingContentL">Phone</div>
+                <div class="settingContentR">
+                    <input type="text" id="phone" name="phone" value="9845234432"/>
+                    <div id="errorPhone" class="settingError"></div>
+                </div>
+                <div class="settingContentL">Password</div>
+                <div class="settingContentR">
+                    <input type="password" id="password" name="password" value="1q2w3344" onclick="pass()";"/>
+                    <div id="errorPassword" class="settingError"></div>
+                </div>
+                <div class="settingContentL">Address</div>
+                <div class="settingContentR">
+                    <input type="text" id="address" name="address" value="baneshwor, kathmandu, nepal"/>
+                    <div id="errorAddress" class="settingError"></div>
+                </div>
+                <div class="settingContentR">
+                    <input type="submit" value="Save"/>
+                </div>
+                </form>
+            </div>
+            <div id="adsContent">place your ad here</div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="leftfoot">
+            Address:
+            <br />
+            Gaushala, Bijayachowk
+            <br />
+            Kathmandu
+        </div>
+        <div id="rightfoot">
+            <div id="copyR">&copy;DheBaProject, 2019</div>
+            <div id="contactR">
+                Contact:
+                <br />
+                dhebaproject@bim3rd.com
+                <br />
+                +977-0422107
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DheBa - Safe and Secure Online Wallet</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <script src="javascript/validate.js" type="text/javascript" language="JavaScript"></script>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+
+
+        <form method="get" action="html/dashboard.html" enctype="multipart/form-data" onsubmit="return validatelogin(this)">
+        <table id="logindiv" cellspacing="25px">
+
+            <tr>
+                <td><label>Email</label></td>
+                <td><label>Password</label></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="text"  name="emailLogin" id="emailLogin" class="loginBox"/>
+                    <div id="emailLoginError" class="error"></div>
+                </td>
+
+
+
+                <td>
+                    <input type="password" name="password" id="password" class="loginBox"/>
+                    <div id="passwordLoginError"class="error"></div>
+                </td>
+
+                <td>
+                    <input type="submit" name="login" id="login" value="Login" class="myButton"/>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <a href="#">Forget Password</a>
+                </td>
+            </tr>
+        </table>
+        </form>
+
+    </div>  <!-- header div ends here -->
+
+
+    <div id="content">
+
+        <div id="leftsidebar">
+            <div id="info">
+                <h1 style="text-shadow: 0.3em 0.3em 0.5em black;">TRANSFER MONEY<br />
+                    FOR FREE</h1>
+                <br />
+                <p style="padding-left: 5%; font-size: 18px">
+                    <strong>
+                    No transfer fee when you send directly to a bank account.
+                    No hidden fee. No fees at all. Yes, really.
+                    </strong></p>
+
+                <br />
+                <br />
+
+                <ul>
+               <li><h3>FCA Regulated</h3></li>
+
+                <li><h3>Millions of customers</h3></li>
+
+                <li><h3>Leading risk and anti-fraud technology</h3></li>
+
+                </ul>
+
+                <br />
+                <br />
+
+            </div>
+
+
+
+            <br />
+            <br />
+            <div id="work">
+                <h1 style="margin-left: 20%">HOW DOES IT WORKS? </h1>
+
+                <div id="createaccount" align="center" class="infowork">
+                    <img src="images/createaccountlogo.jpg" height="50px" width="45px" class="image"/>
+
+                    <h2>Create Account</h2>
+                    <p>
+                        It takes just a few minutes to create a DheBa wallet and bring all your payment
+                        details together in one place. You can choose from 2 currencies.
+                    </p>
+                </div>
+                <br />
+                <div id="deposit" align="center" class="infowork">
+                    <img src="images/depositlogo.jpg" height="50px" width="55px" class="image"/>
+                    <h2>Deposit</h2>
+                    <p>Stay in control with simple, secure and quick deposit methods,
+                        including stored cards and your account balance.</p>
+                </div>
+                <br />
+                <div id="withdraw" align="center" class="infowork">
+                    <img src="images/withdrawfundslogo1.jpg" height="50px" width="55px" class="image"/>
+                    <h2>Withdraw</h2>
+                    <p>
+                        Move funds – including winnings – from DheBa to your bank account
+                        instantly.
+                    </p>
+                </div>
+            </div>
+
+        </div> <!-- left sidebar ends here -->
+
+
+        <div id="rightsidebar">
+            <form method="get" enctype="multipart/form-data" action="#" onsubmit="return validate(this);">
+            <h2 style="padding-left: 15px">Sign Up</h2>
+            <h2 style="padding-left: 15px">It's free and always will be</h2>
+            <table align="center">
+                <tr>
+                    <td>
+                        <br />
+                    <label>First Name</label>
+                    </td>
+
+                    <td>
+                        <label>Last Name</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="text" name="fName" id="fName" class="myTextBoxes"/>
+                        <div id="fNameError" class="error"></div>
+
+                    </td>
+                    <td>
+                        <input type="text" name="lName" id="lName" class="myTextBoxes"/>
+                        <div id="lNameError" class="error"></div>
+                    </td>
+                </tr> <!-- first name and last name ends here-->
+
+
+
+                <tr>
+                    <td>
+                        <br />
+                        <label>Email</label>
+                    </td>
+                    <td>
+
+                        <label>Phone</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="text" name="email" id="email" class="myTextBoxes"/>
+                        <div id="emailError" class="error"></div>
+                    </td>
+                    <td>
+                        <input type="text" name="pNum" id="pNum" class="myTextBoxes"/>
+                        <div id="pNumError" class="error"></div>
+                    </td>
+                </tr> <!-- Email and Phone ends here -->
+
+
+
+                <tr>
+                    <td>
+                        <br />
+                        <label>Password</label>
+                    </td>
+                    <td>
+                        <br />
+                        <label>Confirm Password</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="password" name="iPassword" id="iPassword" class="myTextBoxes"/>
+                        <div id="iPassError" class="error"></div>
+                    </td>
+                    <td>
+                        <input type="password" name="cPassword" id="cPassword" class="myTextBoxes"/>
+                        <div id="cPassError" class="error"></div>
+                    </td>
+                </tr> <!-- password and confirm password ends here -->
+
+
+                <tr>
+                    <td>
+                        <br />
+                        <label>Gender</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="radio" name="gender" id="male" value="male"/> &nbsp; Male
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="gender" id="female" value="female"/> &nbsp;Female
+                        <div id="genderError" class="error"></div>
+                    </td>
+                </tr> <!--gender ends here -->
+
+                <tr>
+                    <td>
+                        <br />
+                        <label>Date of Birth</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="text" name="dob" id="yyyy" class="myDateBoxes" placeholder="yyyy"/>-
+                        <input type="text" name="dob" id="mm" class="myDateBoxes" placeholder="mm"/>-
+                        <input type="text" name="dob" id="dd" class="myDateBoxes" placeholder="dd"/>
+                        <div id="dateError" class="error"></div>
+                    </td>
+                </tr> <!--date of birth ends here -->
+
+                <tr>
+                    <td>
+                        <br />
+                        <label>Security Code: </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+
+
+                        <input type="text" name="sCode" id="sCode" class="myTextBoxes"/>
+                        <div id="sCodeError" class="error"></div>
+
+                    </td>
+                    <td>
+                        <img src="images/captcha.jpg" height="30px" width="120px"/>
+                    </td>
+
+                </tr> <!--Security code ends here -->
+
+                <tr>
+                    <td colspan="2">
+                        <br />
+                        <input type="checkbox" name="terms" id="terms"/> By clicking this you agree
+                        our <a href="#">terms and condition</a>
+                        <div id="cBoxError" class="error"></div>
+                    </td>
+                </tr> <!-- checkbox ends here -->
+
+                <tr>
+                    <td colspan="2">
+                        <br />
+                        <input type="submit" name="signup" id="signup" value="Sign Up" class="myButton"/>
+                        <input type="reset" name="signup" id="reset" value="Reset" class="myButton"/>
+                    </td>
+                </tr> <!-- submit and reset button end here -->
+
+
+
+            </table>
+            </form>
+        </div> <!-- rigth sidebar ends here --> <!-- left sidebar ends here -->
+    </div> <!-- content div ends here -->
+
+    <div id="footer">
+        <div id="leftsidefooter">
+            Address:
+            <br />
+            Gaushala, Bijayachowk
+            <br />
+            Kathmandu
+
+        </div> <!--left side footer div ends here -->
+
+
+
+        <div id="rightsidefooter">
+            <div id="middlefooter">
+                &copy;DheBaProject, 2019
+
+            </div> <!--middlefooter ends here -->
+
+            <div id="contactfooter">
+                Contact:
+                <br />
+                dhebaproject@bim3rd.com
+                <br />
+                +977-0422107
+            </div>
+
+        </div> <!-- right side footer ends here -->
+
+    </div> <!--footer div ends here -->
+
+</div> <!-- container div ends here -->
+
+</body>
+</html>

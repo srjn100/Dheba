@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
+}
+#container{
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+}
+#header{
+    width: 1350px;
+    height: 200px;
+    background-image: url("../images/banner.jpg");
+}
+
+#logindiv{
+    margin-top:50px;
+    border-collapse: separate;
+    border-spacing: 5px;
+    float: right;
+}
+.loginBox{
+    border: 2px solid #393f4d;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding-left: 5px;
+    outline: none;
+    height: 25px;
+}
+
+
+#content{
+    color: #393f4d;
+    width: 1350px;
+    height: 1000px;
+    background: rgb(254,255,195);
+    background: linear-gradient(180deg, rgba(254,255,195,1) 0%, rgba(255,255,244,1) 41%, rgba(255,255,255,1) 82%);
+}
+
+#leftsidebar{
+    float: left;
+    width: 700px;
+    height: 932px;
+    padding-left: 5%;
+    padding-top: 5%;
+
+
+}
+
+p{
+    text-align: justify;
+    padding-left: 25%;
+    padding-right: 30%;
+    font-size: 16px;
+}
+
+#info{
+    width: 100%;
+    height: 30%;
+}
+#work{
+    width: 100%;
+    height: 65%
+}
+
+
+#rightsidebar{
+    float: right;
+    height: 932px;
+    width: 515px;
+    padding-left: 5%;
+    padding-top: 5%;
+
+
+}
+
+label{
+    font-size: large;
+    color: black;
+}
+.myTextBoxes{
+    border: 2px solid #393f4d;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    text-space: 5px;
+    padding-left: 5px;
+    outline: none;
+    height: 25px;
+
+}
+
+
+
+.myDateBoxes{
+    width: 60px;
+    border: 2px solid #393f4d;
+    border-radius: 10px;
+    padding-left: 5px;
+    outline: none;
+    height: 25px;
+}
+
+.myButton{
+    border: 2px solid #393f4d;
+    border-radius: 10px;
+    height: 30px;
+    width: 60px;
+    outline: none;
+}
+
+.error{
+    font-size: 12px;
+    color: red;
+
+}
+
+#footer{
+    color: #d4d4dc;
+    width: 1350px;
+    height: 80px;
+    padding-top: 20px;
+    background-color: #393f4d;
+}
+
+#leftsidefooter{
+    width: 40%;
+    height: 80px;
+    padding-left: 15px;
+    float: left;
+}
+
+#rightsidefooter{
+    width: 58%;
+    height: 80px;
+    padding-right: 10px;
+    float: right;
+
+}
+#middlefooter{
+    width: 50%;
+    height: 80px;
+    text-align: left;
+    float : left;
+}
+#contactfooter{
+    width: 50%;
+    height: 80px;
+    float: right;
+    text-align: right;
+}

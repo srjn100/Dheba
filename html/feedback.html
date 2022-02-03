@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="../css/inner_style.css">
+    <script src="../javascript/feedback_function.js"></script>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <a href="../index.html"><div id="logout">Logout</div></a>
+    </div>
+    <div id="content">
+        <div id="left">
+            <ul>
+                <li class="menu"><a href="dashboard.html">Dashboard</a></li>
+                <li class="menu"><a href="deposit.html">Deposit</a></li>
+                <li class="menu"><a href="withdraw.html">Withdraw</a></li>
+                <li class="menu"><a href="send.html">Send Money</a></li>
+                <li class="menu"><a href="setting.html">Settings</a></li>
+                <li class="menu" id="active"><a id="at" href="#">Feedback</a></li>
+            </ul>
+        </div>
+        <div id="right">
+            <div id="innerContent">
+                <form method="get" onsubmit="return validateFeedback(this);">
+                <div id="feedbackTitle">Send us your feedback</div>
+                <div class="feedbackContentL">Email</div>
+                <div class="feedbackContentR">
+                    <input type="text" id="email" name="email"/>
+                    <div id="errorEmail" class="feebackError"></div>
+                </div>
+                <div class="feedbackContentL">Subject</div>
+                <div class="feedbackContentR">
+                    <input type="text" id="subject" name="subject"/>
+                    <div id="errorSubject" class="feebackError"></div>
+                </div>
+                <div class="feedbackContentL">Message</div>
+                <div class="feedbackContentRM">
+                    <textarea id="message" name="message">
+
+                    </textarea>
+                    <div id="errorMessage" class="feebackError"></div>
+                </div>
+                <div class="feedbackContentR">
+                    <input type="submit" value="Send"/>
+                </div>
+                </form>
+            </div>
+            <div id="adsContent">place your ad here</div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="leftfoot">
+            Address:
+            <br />
+            Gaushala, Bijayachowk
+            <br />
+            Kathmandu
+        </div>
+        <div id="rightfoot">
+            <div id="copyR">&copy;DheBaProject, 2019</div>
+            <div id="contactR">
+                Contact:
+                <br />
+                dhebaproject@bim3rd.com
+                <br />
+                +977-0422107
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,377 @@
+*{
+    margin: 0px;
+    font-family: "OpenSansRegular", Helvetica, Arial, sans-serif;
+    color: #393f4d;
+}
+#container{
+    margin: 0px auto;
+    width:1350px;
+    height: auto;
+}
+#header{
+    width:100%;
+    height: 200px;
+    background-image: url("../images/banner.jpg");
+}
+
+#content{
+    width:100%;
+    height: 600px;
+    background: rgb(254,255,195);
+    background: linear-gradient(180deg, rgba(254,255,195,1) 0%, rgba(255,255,244,1) 41%, rgba(255,255,255,1) 82%);
+}
+#left{
+    width:20%;
+    float: left;
+    height: 600px;
+    text-align: center;
+
+}
+
+#left ul{
+    padding: 0px;
+    list-style: none;
+    margin-top: 20px;
+    border-right: 3px solid #393f4d;
+}
+#left #active{
+    background-color: #393f4d;
+    color: #d4d4dc;
+    border-radius: 25px;
+    outline: none;
+}
+#active #at{
+    color: #fcfc1c;
+}
+#left a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #393f4d;
+}
+.menu{
+
+    width:82%;
+    height: 50px;
+    margin: 10px auto;
+    line-height: 50px;
+}
+
+#right{
+    width:79%;
+    float: right;
+    height: 600px;
+    
+
+}
+#right #innerContent{
+    float: left;
+    width:80%;
+    height: 600px;
+	
+}
+
+#right #adsContent{
+    float: right;
+    font-size: 50px;
+    width: 19%;
+    height: 600px;
+    border-left: 2px solid #393f4d;
+}
+#footer{
+    width: 100%;
+    height:80px;
+    background-color: #393f4d;
+}
+
+/*added content*/
+#innerContent #settingTitle{
+    font-size: 40px;
+    line-height: 100px;
+    text-align:center;
+}
+#innerContent .settingContentL{
+    width:30%;
+    height: 50px;
+    float: left;
+    text-align:center;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: bolder;
+}
+#innerContent .settingContentR{
+    width:70%;
+    height: 50px;
+    float: right;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.settingContentR input[type="text"],input[type="password"]{
+
+    width: 250px;
+    height: 25px;
+    border: 2px solid #393f4d;
+    border-radius: 25px;
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+}
+.settingContentR input[type="submit"]{
+    margin-left: 250px;
+    height: 30px;
+    font-size: 20px;
+    border: 2px solid #393f4d;
+    border-radius: 25px;
+    outline: none;
+}
+.settingError{
+    width: 55%;
+    height:50px;
+    color: #ff0000;
+    float: right;
+    line-height: 30px;
+    font-size: 12px;
+}
+#feedbackTitle{
+    width: 100%;
+     font-size: 40px;
+     line-height: 100px;
+     text-align:center;
+ }
+.feedbackContentL{
+    width:30%;
+    height: 50px;
+    float: left;
+    text-align:center;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: bolder;
+}
+.feedbackContentR{
+    width:70%;
+    height: 50px;
+    float: right;
+    font-weight: bolder;
+}
+.feedbackContentR input[type="text"]{
+    width: 250px;
+    height: 25px;
+    border: 2px solid #393f4d;
+    border-radius: 25px;
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+}
+.feedbackContentRM{
+    width:70%;
+    height: 220px;
+    float: right;
+
+}
+.feedbackContentRM textarea{
+    width:250px;
+    height: 180px;
+    border: 2px solid #393f4d;
+    border-radius: 25px;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+}
+.feedbackContentR input[type="submit"]{
+    margin-left: 250px;
+    height: 30px;
+    font-size: 20px;
+    border: 2px solid #393f4d;
+    border-radius: 25px;
+    outline: none;
+}
+.feebackError{
+    width: 54%;
+    height:50px;
+    color: #ff0000;
+    float: right;
+    line-height: 30px;
+    font-size: 12px;
+}
+#balance{
+    width: 100%;
+    height:200px;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+#balanceBox{
+    margin: 0px auto;
+    width:30%;
+    height:50px;
+    border: 4px solid #393f4d;
+    line-height: 50px;
+    border-radius: 25px;
+
+}
+#transactionBox{
+    margin: 0px auto;
+    text-align: center;
+    width: 80%;
+    height: 300px;
+    border: 4px solid #393f4d;
+    border-radius: 25px;
+
+}
+#transactionTitle{
+    width:100%;
+    height: 20%;
+    font-size: 25px;
+    line-height: 50px;
+}
+#transactions{
+    width: 100%;
+    height: 80%;
+    font-size: 20px;
+}
+#footer #leftfoot{
+    margin-top: 10px;
+    height: 95%;
+    width:30%;
+    color:#d4d4dc;
+    margin-left: 20px;
+    float: left;
+    font-size: 15px;
+}
+#footer #rightfoot{
+    height: 95%;
+    width:65%;
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-size: 15px;
+    text-align: right;
+}
+#copyR{
+    color:#d4d4dc;
+    height: 100%;
+    width:30%;
+    float: left;
+}
+#contactR{
+    color:#d4d4dc;
+    height: 100%;
+    width:70%;
+    float: right;
+}
+#sendTitle,#withdrawTitle{
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sendcontentL{
+    width: 30%;
+    height: 50px;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: bolder;
+}
+.sendcontentR{
+    width: 70%;
+    height: 50px;
+    float: right;
+    font-weight: bolder;
+}
+.sendcontentR input[type="text"]{
+    width: 250px;
+    height: 25px;
+    border: 2px solid #393f4d;
+    border-radius: 25px;
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+}
+.sendcontentR input[type="submit"]{
+    margin-left: 250px;
+    height: 30px;
+    font-size: 20px;
+    border: 2px solid #393f4d;
+    border-radius: 25px;
+    outline: none;
+}
+.sendcontentR .senderror,.withdrawContentR .withdrawerror,.depositContentR .depositError{
+    width: 54%;
+    height: 50px;
+    color: #ff0000;
+    float: right;
+    line-height: 30px;
+    font-size: 12px;
+}
+.withdrawContentL,.depositContentL{
+    width: 30%;
+    height: 50px;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: bolder;
+}
+.withdrawContentR,.depositContentR{
+    width: 70%;
+    height: 50px;
+    float: right;
+    font-weight: bolder;
+}
+.withdrawContentR input[type="text"],.depositContentR input[type="text"]{
+    width: 250px;
+    height: 25px;
+    border: 2px solid #393f4d;
+    border-radius: 25px;
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+}
+.withdrawContentR select,.depositContentR select{
+    width: 262px;
+    height: 32px;
+    border: 2px solid #393f4d;
+    border-radius: 25px;
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+}
+.withdrawContentR input[type="submit"],.depositContentR input[type="submit"]{
+    margin-left: 165px;
+    height: 30px;
+    font-size: 20px;
+    border: 2px solid #393f4d;
+    border-radius: 25px;
+    outline: none;
+}
+#bankDepositTitle,#cardDepositTitle{
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+}
+#bankDepositContent{
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    text-align: center;
+
+}
+ #logout{
+     width: 120px;
+     height: 40px;
+     background-color: #393f4d;
+     color: #fcfc1c;
+     float:right;
+     font-size: 25px;
+     line-height: 40px;
+     border-radius: 25px;
+     margin-top: 100px;
+     margin-right: 20px;
+     text-align: center;
+ }

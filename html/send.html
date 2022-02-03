@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Send</title>
+    <link rel="stylesheet" href="../css/inner_style.css">
+    <script src="../javascript/send_function.js"></script>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <a href="../index.html"><div id="logout">Logout</div></a>
+    </div>
+    <div id="content">
+        <div id="left">
+            <ul>
+                <li class="menu"><a href="dashboard.html">Dashboard</a></li>
+                <li class="menu"><a href="deposit.html">Deposit</a></li>
+                <li class="menu"><a href="withdraw.html">Withdraw</a></li>
+                <li class="menu" id="active"><a id="at" href="#">Send Money</a></li>
+                <li class="menu"><a href="setting.html">Settings</a></li>
+                <li class="menu"><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+        <div id="right">
+            <div id="innerContent">
+                <form method="get" onsubmit="return validateSend(this);">
+                <div id="sendTitle">Send money DheBa to DheBa</div>
+                <div class="sendcontentL">Reciever's Email</div>
+                <div class="sendcontentR">
+                <input type="text" id="email" name="email"/>
+                    <div id="emailerror" class="senderror"></div>
+                </div>
+                <div class="sendcontentL">Amount</div>
+                <div class="sendcontentR">
+                <input type="text" id="amount" name="amount"/>
+                    <div id="amounterror" class="senderror"></div>
+                </div>
+                <div class="sendcontentR">
+                    <input type="submit" value="Send">
+                </div>
+                </form>
+            </div>
+            <div id="adsContent">place your ad here</div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="leftfoot">
+            Address:
+            <br />
+            Gaushala, Bijayachowk
+            <br />
+            Kathmandu
+        </div>
+        <div id="rightfoot">
+            <div id="copyR">&copy;DheBaProject, 2019</div>
+            <div id="contactR">
+                Contact:
+                <br />
+                dhebaproject@bim3rd.com
+                <br />
+                +977-0422107
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

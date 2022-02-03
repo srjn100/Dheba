@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Withdraw</title>
+    <link rel="stylesheet" href="../css/inner_style.css">
+    <script src="../javascript/withdraw_function.js"></script>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <a href="../index.html"><div id="logout">Logout</div></a>
+    </div>
+    <div id="content">
+        <div id="left">
+            <ul>
+                <li class="menu"><a href="dashboard.html">Dashboard</a></li>
+                <li class="menu"><a href="deposit.html">Deposit</a></li>
+                <li class="menu" id="active"><a id="at" href="#">Withdraw</a></li>
+                <li class="menu"><a href="send.html">Send Money</a></li>
+                <li class="menu"><a href="setting.html">Settings</a></li>
+                <li class="menu"><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </div>
+        <div id="right">
+            <div id="innerContent">
+                <form method="get" onsubmit="return validateWithdraw(this);">
+                <div id="withdrawTitle">Withdraw to Bank</div>
+                <div class="withdrawContentL">Bank</div>
+                <div class="withdrawContentR">
+                    <select id="bank" name="bank">
+                        <option value="0">select bank</option>
+                        <option value="0">ACE DEVELOPMENT</option>
+                        <option value="0">APEX DEVELOPMENT</option>
+                        <option value="0">CITIZENS BANK INTL</option>
+                        <option value="0">EVEREST BANK</option>
+                        <option value="0">EXCEL DEVELOPMENT BANK</option>
+                        <option value="0">GLOBAL IME BANK</option>
+                        <option value="0">GURKHAS FINANCE</option>
+                        <option value="0">JANATA BANK NEPAL</option>
+                        <option value="0">JYOTI BIKASH BANK</option>
+                        <option value="0">KUMARI BANK</option>
+                        <option value="0">LAXMI BANK LTD</option>
+                    </select>
+                    <div id="bankerror" class="withdrawerror"></div>
+                </div>
+                <div class="withdrawContentL">Account holder's name</div>
+                <div class="withdrawContentR">
+                    <input type="text" id="name" name="name"/>
+                    <div id="nameerror" class="withdrawerror"></div>
+                </div>
+                    <div class="withdrawContentL">Account number</div>
+                    <div class="withdrawContentR">
+                        <input type="text" id="num" name="num"/>
+                        <div id="numerror" class="withdrawerror"></div>
+                    </div>
+                <div class="withdrawContentL">Amount</div>
+                <div class="withdrawContentR">
+                    <input type="text" id="amount" name="amount"/>
+                    <div id="amounterror" class="withdrawerror"></div>
+                </div>
+                <div class="withdrawContentR">
+                    <input type="submit" value="Withdraw">
+                </div>
+                </form>
+            </div>
+            <div id="adsContent">place your ad here</div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="leftfoot">
+            Address:
+            <br />
+            Gaushala, Bijayachowk
+            <br />
+            Kathmandu
+        </div>
+        <div id="rightfoot">
+            <div id="copyR">&copy;DheBaProject, 2019</div>
+            <div id="contactR">
+                Contact:
+                <br />
+                dhebaproject@bim3rd.com
+                <br />
+                +977-0422107
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
